@@ -2,7 +2,15 @@ This is the starter template for the final assessment project for Udacity's Reac
 
 Of course, you are free to start this project from scratch if you wish! Just be sure to use [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project.
 
-## What You're Getting
+## How to Start the project
+Please do an 'npm install' after downloading the project/cloning the repo.
+Thereafter start the application by using 'npm start'.
+The Application opens up in http://localhost:3000
+
+You can clone the repo https://github.com/abhishek84/WebProjects.git for latest updates to the project.
+
+
+## FrontEnd Files
 ```
 +--public/    
  |-- index.html - DO NOT MODIFY
@@ -19,7 +27,14 @@ Of course, you are free to start this project from scratch if you wish! Just be 
  |-- BooksAPI.js - A JavaScript API for the provided Udacity backend.
  Instructions for the methods are below.
  |-- index.js - You should not need to modify this file. It is used for DOM rendering only.
- |-- Mapper.js -
+ |-- Mapper.js - Filter the books based on the shelf
+ |-- ReadOptions.js - Dropdown containing four values 'Currently Reading', 'Read', 'Want To Read', 'None' and their handles
+ |-- Search.js - Text Search Bar to search for BooksAPI
+ |-- SearchResults.js - Search Results for books and it's handles. Makes sure that the states of the books are similar to the ones on the shelf
+ |-- Readings.js - Contains the Different Shelf which categorizes the books
+ |-- CurrentRead.js - Holds the state of the books in the Currently Reading Shelf
+ |-- Read.js - Holds the state of the books in the Read Shelf
+ |-- WantToRead.js - Holds the state of the books in the WantToRead Shelf
  |-- index.css - Global styles. You probably won't need to change anything here.
 |-- .gitignore
 |-- CONTRIBUTING.MD - Information about contributing to this repo.
@@ -29,8 +44,6 @@ TL;DR - Fork and clone your own version of this to use it.
 for you to use with your app.
 |-- package.json - npm package manager file. It's unlikely that you'll need to modify this.
 ```
-
-Remember that good React design practice is to create new JS files for each component and use import/require statements to include them where they are needed.
 
 ## Backend Server
 
