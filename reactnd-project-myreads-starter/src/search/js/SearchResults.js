@@ -60,7 +60,7 @@ class SearchResults extends React.Component {
                   return getAllResponse[i]
                 }
               }
-              e.shelf='none'
+              e.shelf='none';
               return e
             })
             this.setState({
