@@ -19,7 +19,7 @@ Of course, you are free to start this project from scratch if you wish! Just be 
  |-- BooksAPI.js - A JavaScript API for the provided Udacity backend.
  Instructions for the methods are below.
  |-- index.js - You should not need to modify this file. It is used for DOM rendering only.
- |-- Mapper.js - 
+ |-- Mapper.js -
  |-- index.css - Global styles. You probably won't need to change anything here.
 |-- .gitignore
 |-- CONTRIBUTING.MD - Information about contributing to this repo.
